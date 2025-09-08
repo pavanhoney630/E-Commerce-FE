@@ -19,9 +19,7 @@ export default function CartPage() {
     try {
       setLoading(true);
       setError("");
-      const res = await axios.get(`${API_URL}/api/cart/products-cart`, {
-        headers: { Authorization: `Bearer ${token}` },
-      });
+      const res = await axios.get(`${API_URL}/api/cart/products-cart`)
       setProducts(res.data.products || []);
       setCart(res.data.cart || { items: [] });
       setLoading(false);
