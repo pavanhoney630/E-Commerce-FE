@@ -4,7 +4,7 @@ import { FaUser, FaPhone, FaEnvelope, FaLock } from "react-icons/fa";
 
 const API_URL =
   process.env.NODE_ENV === "production"
-    ? "https://cab-booking-be-jvxw.onrender.com"
+    ? "https://e-commerce-be-x33o.onrender.com"
     : "http://localhost:5000";
 
 console.log("API URL:", API_URL);

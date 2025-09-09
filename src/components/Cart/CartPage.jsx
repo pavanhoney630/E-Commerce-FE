@@ -3,7 +3,7 @@ import axios from "axios";
 
 const API_URL =
   process.env.NODE_ENV === "production"
-    ? "https://cab-booking-be-jvxw.onrender.com"
+    ? "https://e-commerce-be-x33o.onrender.com"
     : "http://localhost:5000";
 
 export default function CartPage() {
